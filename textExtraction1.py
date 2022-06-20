@@ -16,17 +16,3 @@ cv2.imshow('img', img)
 cv2.waitKey(0)
 
 
-'''
-sample_text = 'Wake up with determination. Go to bed with satisfaction.'
-l1 = list(sample_text.split(' '))
-print(l1)
-x = input()
-l2 = list(x.split(' '))
-print(l2)
-c = 0
-for i in range(len(l1)):
-    if l1[i] == l2[i]:
-        c += 1
-print(f'Accuracy = {round(((c/len(l1))*100))}%')
-'''
-
